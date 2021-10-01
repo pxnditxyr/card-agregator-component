@@ -24,7 +24,7 @@ Like:
 
 
 ## Captures
-![Presentation](https://i.ibb.co/KDzcbDr/2021-10-01-02-07-18-1.gif)
+![Presentation](https://i.ibb.co/kKk0N8z/2021-10-01-11-48-36-1.gif)
 
 ## License
 
