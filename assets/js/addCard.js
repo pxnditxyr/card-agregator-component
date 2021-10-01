@@ -32,5 +32,5 @@ export const addNewCard = ( event ) => {
     cardArticle.appendChild( cardImageSection );
     cardArticle.appendChild( cardContainer );
 
-    document.querySelector( "main" ).appendChild( cardArticle );
+    document.querySelector( "#gallery" ).appendChild( cardArticle );
 };
