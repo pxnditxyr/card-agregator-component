@@ -4,8 +4,8 @@ const getRandomNumber = () => {
     return Math.floor( Math.random() * 1000 );
 };
 
-export const addNewCard = ( event ) => {
-    event.preventDefault();
+export const getNewCard = () => {
+
     const cardImage = document.createElement( "img" );
     const cardTitle = document.createElement( "h3" );
     const cardParagraph = document.createElement( "p" );
@@ -31,6 +31,5 @@ export const addNewCard = ( event ) => {
 
     cardArticle.appendChild( cardImageSection );
     cardArticle.appendChild( cardContainer );
-
-    document.querySelector( "#gallery" ).appendChild( cardArticle );
+    return cardArticle;
 };
